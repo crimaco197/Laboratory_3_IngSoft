@@ -1,5 +1,10 @@
 # Laboratory_3_IngSoft
 
+## Integrantes: 
+* CRISTIAN DAVID MARTINEZ COLLAZOS  
+* LAURA VANESSA BOHORQUEZ RAMIREZ
+* JIMMY ALEXANDER PULIDO ARIAS
+
 ## 1. 
 
 Para realizar el patron *Strategy* implementamos una interface *TransportStrategy* para hacer el Strategy Pattern. luego 3 clases: *Bicicle, Bus y Cap* que implementa la interface.  
