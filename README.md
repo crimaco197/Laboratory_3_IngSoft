@@ -34,6 +34,20 @@ public void takeTransport(){
 
 ```
 
+## 2.
+
+Teniendo como misión agregar una nueva franquicia en Medellin, se crearon 5 clases nuevas. La primera corresponde a la que definirá la franquicia que herederada de la clase PizzaStore y, las restantes corresponden a los diferentes nuevos sabores (recetas) que se podrán adquirir en esta nueva tienda. Todas estas clases heredan de la clase Pizza, asi como lo hace las de NewYork y Chicago en el ejemplo. Finalmente, en la clase DependentPizzaStore y PizzaTestDrive se hicieron los cambios pertinentes para que se pudiesen hacer pruebas con la nueva tienda.
+
+El ejemplo se puede encontrar en el siguiente link
+
+https://github.com/bethrobson/Head-First-Design-Patterns/tree/master/src/headfirst/designpatterns/factory/pizzafm
+
+Ahí encontraremos las otras tiendes de NewYork y Chicago con sus respectivas recetas y pruebas
+
+## 3.
+
+El Builder Pattern cumple con la función de crear objetos de forma fácil. En esta ocasión se escogió una situación en dónde se quiere implementar una clase que guarde datos de un estudiante. Continuando con la definición del patrón Builder, se definió la interfaz Builder dónde se implementa el método build. En la clase Student se definieron los hilos que agregarán información al estudiante. Mientras que, en StudentBuilder se definieron todos los atributos y los métodos get y set correspondientes.
+
 
 ## 4. 
 
